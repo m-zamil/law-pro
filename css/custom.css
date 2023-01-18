@@ -5,4 +5,30 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
-
+.navbar-icon {
+  display: block;
+  text-align: center;
+}
+.navbar-icon img {
+  padding: 7px 0;
+}
+#logo a {
+  font-size: 20px;
+  padding: 16px 0;
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  #logo a {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1260px;
+  }
+}
