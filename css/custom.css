@@ -4,7 +4,9 @@
 	Add all your Custom Styled CSS here for New Styles or
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
-
+.ws-1 {
+  word-spacing: 6px;
+}
 .navbar-icon {
   display: block;
   text-align: center;
