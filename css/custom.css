@@ -4,9 +4,13 @@
 	Add all your Custom Styled CSS here for New Styles or
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
-.ws-1 {
-  word-spacing: 6px;
+body {
+  color: #555;
 }
+.ws-1 {
+  word-spacing: 3px;
+}
+
 .navbar-icon {
   display: block;
   text-align: center;
@@ -36,4 +40,23 @@
   .container-xxl {
     max-width: 1260px;
   }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .w-md-70 {
+    width: 70%;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
 }
