@@ -26,6 +26,10 @@ body {
   padding: 16px 0;
   margin-bottom: 0;
 }
+#testimonials {
+  position: relative;
+  top: -60px;
+}
 @media (min-width: 768px) {
   #logo a {
     font-size: 26px;
