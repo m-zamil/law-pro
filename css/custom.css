@@ -51,16 +51,6 @@ body {
   .w-md-70 {
     width: 70%;
   }
-  .un1 {
-    position: absolute;
-    right: 0;
-    width: 450px;
-    height: auto;
-    top: 40%;
-    transform: translateY(-50%);
-    z-index: 0;
-    /* opacity: 0.7; */
-  }
 }
 
 /* Large devices (desktops, 992px and up)*/
