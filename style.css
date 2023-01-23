@@ -2822,7 +2822,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
   font-size: 13px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: Poppins, sans-serif;
+  /* font-family: Poppins, sans-serif; */
 }
 .menu-link span {
   display: none;
@@ -3023,7 +3023,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
     background-color: #dc3545;
   }
   .menu-link {
-    padding: 39px 15px;
+    padding: 0 15px;
     -webkit-transition: margin 0.4s ease, padding 0.4s ease;
     -o-transition: margin 0.4s ease, padding 0.4s ease;
     transition: margin 0.4s ease, padding 0.4s ease;
