@@ -2840,6 +2840,10 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 .menu-item:hover > .menu-link {
   color: var(--themecolor);
 }
+.menu-item.current > .menu-link {
+  background-color: rgba(var(--secondarycolorrgba), 0.6);
+  border-radius: 6px;
+}
 .mega-menu-content,
 .sub-menu-container {
   position: relative;
